@@ -1,0 +1,79 @@
+.professional-course-section2 {
+  padding: 60px 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+}
+
+.professional-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 500px;
+  background-color: var(--color2);
+}
+
+.professional-card:hover {
+  transform: scale(1.05);
+}
+
+.professional-card-number {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color1); 
+  color: var(--color2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.professional-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color2);
+  transition: opacity 0.3s ease;
+}
+
+.professional-card-text h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.professional-card-description {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.professional-card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.professional-card-price,
+.professional-card-duration,
+.professional-card-total {
+  color: var(--color2);
+  font-weight: bold;
+}
+
+.professional-card:hover .professional-card-text {
+  opacity: 1;
+}
+
+.professional-card:hover .card-link {
+  opacity: 1;
+}

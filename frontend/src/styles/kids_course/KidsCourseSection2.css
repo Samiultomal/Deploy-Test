@@ -1,0 +1,81 @@
+.kids-course-section2 {
+  padding: 60px 0;
+  background-color: var(--color1);
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+}
+
+.kids-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 500px;
+  background-color: var(--color1);
+}
+
+.kids-card:hover {
+  transform: scale(1.05);
+}
+
+.kids-card-number {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color0);
+  color: var(--color2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.kids-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--color2);
+  transition: opacity 0.3s ease;
+}
+
+.kids-card-text h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.kids-card-description {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.kids-card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.kids-card-price,
+.kids-card-duration,
+.kids-card-total {
+  color: var(--color2);
+  font-weight: bold;
+}
+
+
+.kids-card:hover .card-text {
+  opacity: 1;
+}
+
+.kids-card:hover .card-link {
+  opacity: 1;
+}

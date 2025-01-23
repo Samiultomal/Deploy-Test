@@ -1,0 +1,161 @@
+.check-email-verification-container {
+  color: var(--color4);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+.check-email-wrapper {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: var(--color2);
+  font-family: var(--primary-font);
+  margin-bottom: 20px;
+}
+
+.check-email-heading-border {
+  width: 60px;
+  height: 4px;
+  background-color: var(--color2);
+  margin: 0 auto 40px;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: var(--color3);
+  margin-bottom: 30px;
+  font-family: var(--sec-font);
+}
+
+.check-mail-button {
+  background-color: var(--color2);
+  color: var(--color1);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.check-mail-button:hover {
+  background-color: var(--color7);
+  color: var(--color1);
+}
+
+/* Responsive Styles */
+
+/* iPad Mini, iPad Air, iPad Pro (landscape and portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .check-email-verification-container {
+    padding: 25px;
+    max-width: 700px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .check-mail-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}
+
+/* Surface Pro 7 */
+@media (min-width: 912px) and (max-width: 1368px) {
+  .check-email-verification-container {
+    padding: 30px;
+    max-width: 850px;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .check-mail-button {
+    font-size: 1.05rem;
+    padding: 10px 20px;
+  }
+
+  .message {
+    font-size: 1.1rem;
+  }
+}
+
+/* Surface Duo (both screens open) */
+@media (min-width: 540px) and (max-width: 720px) {
+  .check-email-verification-container {
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .check-mail-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .message {
+    font-size: 0.9rem;
+  }
+}
+
+/* Galaxy Z Fold (both screens open) */
+@media (min-width: 280px) and (max-width: 675px) {
+  .check-email-verification-container {
+    padding: 20px;
+    max-width: 500px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .check-mail-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .message {
+    font-size: 0.9rem;
+  }
+}
+
+/* Asus ZenBook Fold */
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .check-email-verification-container {
+    padding: 40px;
+    max-width: 1000px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .check-mail-button {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+  }
+
+  .message {
+    font-size: 1.2rem;
+  }
+}
